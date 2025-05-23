@@ -1,0 +1,4 @@
+/* Only import base styles here, move all shared styles to base/index.css */
+@import '../styles/base/index.css';
+
+/* Page-specific styles can be added here if needed */
