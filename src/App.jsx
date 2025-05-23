@@ -19,9 +19,9 @@ function App() {
     <ThemeProvider theme={theme}>
       <CssBaseline /> {/* CssBaseline kickstarts an elegant, consistent, and simple baseline to build upon. */}
       <Router>
-        <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh', width: '100%' }}>
+        <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh', width: '100%', alignItems: 'center' }}>
           <Navbar />
-          <main style={{ flex: 1, width: '100%' }}>
+          <main style={{ flex: 1, width: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <Routes>
               <Route path="/" element={<HomePage />} />
               <Route path="/about" element={<AboutPage />} />

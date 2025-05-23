@@ -1,6 +1,6 @@
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   background-color: var(--primary-color);
   padding: 1rem;
@@ -11,9 +11,12 @@
 .navbar-list {
   list-style: none;
   display: flex;
+  justify-content: center;
   gap: 1rem;
   margin: 0;
   padding: 0;
+  width: 100%;
+  max-width: 800px;
 }
 
 .navbar-item a {
@@ -24,4 +27,11 @@
 
 .navbar-item a:hover {
   text-decoration: underline;
+}
+
+.navbar-container {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
 }

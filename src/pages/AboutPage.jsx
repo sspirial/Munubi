@@ -9,28 +9,28 @@ const AboutPage = () => {
   const { bio, background, aspirations } = data.about;
 
   return (
-    <Container maxWidth="md">
-      <Box sx={{ my: 4 }}>
-        <Typography variant="h4" component="h1" gutterBottom>
+    <Container maxWidth="md" sx={{ display: 'flex', justifyContent: 'center' }}>
+      <Box sx={{ my: 4, width: '100%' }}>
+        <Typography variant="h4" component="h1" gutterBottom align="center">
           About Me
         </Typography>
         <Paper elevation={3} sx={{ p: 3, mt: 2 }}>
-          <Typography variant="h6" component="h2" gutterBottom>
+          <Typography variant="h6" component="h2" gutterBottom align="center">
             Bio
           </Typography>
-          <Typography paragraph>
+          <Typography paragraph align="center">
             {bio}
           </Typography>
-          <Typography variant="h6" component="h2" gutterBottom sx={{ mt: 3 }}>
+          <Typography variant="h6" component="h2" gutterBottom sx={{ mt: 3 }} align="center">
             Background
           </Typography>
-          <Typography paragraph>
+          <Typography paragraph align="center">
             {background}
           </Typography>
-          <Typography variant="h6" component="h2" gutterBottom sx={{ mt: 3 }}>
+          <Typography variant="h6" component="h2" gutterBottom sx={{ mt: 3 }} align="center">
             Career Aspirations
           </Typography>
-          <Typography paragraph>
+          <Typography paragraph align="center">
             {aspirations}
           </Typography>
         </Paper>

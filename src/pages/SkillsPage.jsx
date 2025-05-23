@@ -14,25 +14,25 @@ const SkillsPage = () => {
   const { technical, soft } = data.skills;
 
   return (
-    <Container maxWidth="md">
-      <Box sx={{ my: 4 }}>
-        <Typography variant="h4" component="h1" gutterBottom>
+    <Container maxWidth="md" sx={{ display: 'flex', justifyContent: 'center' }}>
+      <Box sx={{ my: 4, width: '100%' }}>
+        <Typography variant="h4" component="h1" gutterBottom align="center">
           Skills
         </Typography>
         <Paper elevation={3} sx={{ p: 3, mt: 2 }}>
-          <Typography variant="h6" component="h2" gutterBottom>
+          <Typography variant="h6" component="h2" gutterBottom align="center">
             Technical Skills
           </Typography>
-          <Stack direction="row" spacing={1} sx={{ flexWrap: 'wrap', mb: 3 }}>
+          <Stack direction="row" spacing={1} sx={{ flexWrap: 'wrap', mb: 3, justifyContent: 'center' }}>
             {technical.map((skill) => (
               <Chip label={skill} key={skill} color="primary" sx={{ mb: 1 }} />
             ))}
           </Stack>
 
-          <Typography variant="h6" component="h2" gutterBottom>
+          <Typography variant="h6" component="h2" gutterBottom align="center">
             Soft Skills
           </Typography>
-          <Stack direction="row" spacing={1} sx={{ flexWrap: 'wrap' }}>
+          <Stack direction="row" spacing={1} sx={{ flexWrap: 'wrap', justifyContent: 'center' }}>
             {soft.map((skill) => (
               <Chip label={skill} key={skill} color="secondary" sx={{ mb: 1 }} />
             ))}

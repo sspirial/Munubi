@@ -38,18 +38,18 @@ const ContactPage = () => {
   };
 
   return (
-    <Container maxWidth="lg" sx={{ width: '100%', padding: '2rem', boxSizing: 'border-box' }}>
-      <Box sx={{ my: 4 }}>
-        <Typography variant="h4" component="h1" gutterBottom>
+    <Container maxWidth="lg" sx={{ width: '100%', padding: '2rem', boxSizing: 'border-box', display: 'flex', justifyContent: 'center' }}>
+      <Box sx={{ my: 4, width: '100%' }}>
+        <Typography variant="h4" component="h1" gutterBottom align="center">
           Contact Me
         </Typography>
-        <Grid container spacing={4}>
+        <Grid container spacing={4} justifyContent="center">
           <Grid item xs={12} md={6}>
             <Paper elevation={3} sx={{ p: 3 }}>
-              <Typography variant="h6" gutterBottom>
+              <Typography variant="h6" gutterBottom align="center">
                 Send a Message
               </Typography>
-              <Box component="form" onSubmit={handleSubmit} noValidate sx={{ mt: 1 }}>
+              <Box component="form" onSubmit={handleSubmit} noValidate sx={{ mt: 1, display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                 <TextField
                   margin="normal"
                   required
@@ -92,7 +92,7 @@ const ContactPage = () => {
           </Grid>
           <Grid item xs={12} md={6}>
             <Paper elevation={3} sx={{ p: 3, height: '100%' }}>
-              <Typography variant="h6" gutterBottom>
+              <Typography variant="h6" gutterBottom align="center">
                 Contact Information
               </Typography>
               <List>
@@ -122,8 +122,8 @@ const ContactPage = () => {
                 )}
               </List>
               {socialMedia && socialMedia.length > 0 && (
-                <Box sx={{ mt: 2 }}>
-                  <Typography variant="subtitle1" gutterBottom sx={{ml: 2}}>
+                <Box sx={{ mt: 2, display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                  <Typography variant="subtitle1" gutterBottom align="center">
                     Connect with me
                   </Typography>
                   <List>
