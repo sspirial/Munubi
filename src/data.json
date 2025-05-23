@@ -1,0 +1,81 @@
+{
+  "home": {
+    "name": "Emmanuel Munubi",
+    "tagline": "Your Professional Tagline",
+    "professionalPhoto": "./assets/professional-photo.jpg",
+    "ctaViewWork": "View My Work",
+    "ctaDownloadResume": "Download Resume",
+    "resumeUrl": "/path/to/your/resume.pdf"
+  },
+  "about": {
+    "bio": "A short bio introducing yourself.",
+    "background": "Your background (academic or personal).",
+    "aspirations": "Career aspirations."
+  },
+  "skills": {
+    "technical": [
+      "Technical Skill 1",
+      "Technical Skill 2",
+      "React",
+      "JavaScript"
+    ],
+    "soft": [
+      "Soft Skill 1",
+      "Soft Skill 2"
+    ]
+  },
+  "projects": [
+    {
+      "name": "Project Alpha",
+      "description": "Description of Project Alpha. This project was about...",
+      "technologies": ["React", "Node.js", "MongoDB"],
+      "liveLink": "https://example.com/project-alpha",
+      "githubLink": "https://github.com/yourusername/project-alpha",
+      "image": "/path/to/project-alpha-image.jpg"
+    },
+    {
+      "name": "Project Beta",
+      "description": "Description of Project Beta. Focused on...",
+      "technologies": ["Python", "Django", "PostgreSQL"],
+      "liveLink": null,
+      "githubLink": "https://github.com/yourusername/project-beta",
+      "image": "/path/to/project-beta-image.jpg"
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Example",
+      "degree": "B.Sc. in Computer Science",
+      "duration": "2020 - 2024",
+      "details": "Relevant coursework or achievements."
+    },
+    {
+      "institution": "Online Course Platform",
+      "degree": "Certification in Web Development",
+      "duration": "2023",
+      "details": "Covered HTML, CSS, JavaScript, and React."
+    }
+  ],
+  "contact": {
+    "email": "your.email@example.com",
+    "phone": "Your Phone Number (Optional)",
+    "location": "Your City, Country (Optional)",
+    "socialMedia": [
+      {
+        "name": "LinkedIn",
+        "url": "https://linkedin.com/in/yourusername"
+      },
+      {
+        "name": "GitHub",
+        "url": "https://github.com/yourusername"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/yourusername"
+      }
+    ]
+  },
+  "footer": {
+    "copyright": "© 2025 Your Name. All rights reserved."
+  }
+}
