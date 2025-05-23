@@ -19,9 +19,10 @@ function App() {
     <ThemeProvider theme={theme}>
       <CssBaseline /> {/* CssBaseline kickstarts an elegant, consistent, and simple baseline to build upon. */}
       <Router>
-        <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh', width: '100%', alignItems: 'center' }}>
-          <Navbar />
-          <main style={{ flex: 1, width: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+        {/* Navbar is outside the main flex container to allow sticky positioning */}
+        <Navbar /> 
+        <div style={{ display: 'flex', flexDirection: 'column', minHeight: 'calc(100vh - 64px)', /* Adjust 64px to your Navbar height */ width: '100%', alignItems: 'center' }}>
+          <main style={{ flex: 1, width: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', paddingTop: '64px' /* Add padding to prevent content from hiding behind sticky navbar */ }}>
             <Routes>
               <Route path="/" element={<HomePage />} />
               <Route path="/about" element={<AboutPage />} />

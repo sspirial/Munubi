@@ -1,12 +1,16 @@
 .footer {
   text-align: center;
-  background-color: var(--secondary-color);
-  color: white;
-  padding: 1rem;
-  margin-top: 2rem;
+  background-color: var(--secondary-color); /* Theme's accent color (yellow) */
+  color: #000000; /* Black text for contrast on yellow */
+  padding: 1.5rem 0;
+  margin-top: 3rem;
+  width: 100%; /* Occupy full width of its parent */
+  box-sizing: border-box; /* Ensure padding doesn't add to width */
+  box-shadow: 0 -2px 8px rgba(0,0,0,0.2);
 }
 
 .footer p {
   margin: 0;
-  font-size: 0.9rem;
+  font-size: 1rem;
+  font-weight: 500;
 }

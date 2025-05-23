@@ -1,6 +1,6 @@
 .navbar {
   display: flex;
-  justify-content: center;
+  justify-content: space-between; /* Align logo and links */
   align-items: center;
   background-color: var(--primary-color);
   padding: 1rem;
@@ -31,7 +31,19 @@
 
 .navbar-container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1200px; /* Or your preferred max width */
   display: flex;
-  justify-content: center;
+  justify-content: space-between; /* Ensure space between logo and nav items */
+  align-items: center; /* Vertically align items */
+  padding: 0 1rem; /* Add some padding if needed */
+}
+
+.navbar-logo-link {
+  display: inline-block; /* Allow sizing of the link */
+}
+
+.navbar-logo {
+  height: 40px; /* Adjust as needed */
+  width: auto;
+  margin-right: 1rem; /* Space between logo and links */
 }

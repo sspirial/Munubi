@@ -2,7 +2,7 @@
   "home": {
     "name": "Emmanuel Munubi",
     "tagline": "Your Professional Tagline",
-    "professionalPhoto": "./assets/professional-photo.jpg",
+    "professionalPhoto": "/src/assets/professional-photo.jpg",
     "ctaViewWork": "View My Work",
     "ctaDownloadResume": "Download Resume",
     "resumeUrl": "/path/to/your/resume.pdf"
