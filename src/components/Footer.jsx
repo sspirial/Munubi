@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import logo from '../assets/sspirial-logo.png';
+import logo from '/public/assets/sspirial-logo.png';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
