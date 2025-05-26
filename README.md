@@ -1,12 +1,60 @@
-# React + Vite
+# Sspirial Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a modern, visually stunning portfolio website built with React and Vite. The project showcases a developer's skills, projects, and contact information with a gold-themed design inspired by the Sspirial logo.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Gold-Themed Design**: A unique color palette inspired by the Sspirial logo.
+- **Responsive Layout**: Mobile-first design with smooth transitions and animations.
+- **Interactive Elements**: Glass morphism effects, hover animations, and dynamic backgrounds.
+- **Pages**:
+  - Home: Hero section with animated elements.
+  - About: Glass cards with personal and professional details.
+  - Skills: Technical and soft skills display.
+  - Projects: Interactive project cards with hover effects.
+  - Education: Timeline layout for academic achievements.
+  - Contact: Modern contact form and social media links.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React**: For building the user interface.
+- **Vite**: For fast development and build processes.
+- **CSS**: Custom styles with modern design techniques (e.g., glass morphism, gradients).
+- **Google Fonts**: Inter and Poppins for typography.
+
+## Setup Instructions
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/sspirial-portfolio.git
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd sspirial-portfolio
+   ```
+
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+5. Open your browser and navigate to `http://localhost:5173` (or the port shown in the terminal).
+
+## Deployment
+
+To build the project for production:
+```bash
+npm run build
+```
+
+The output will be in the `dist` directory, ready to be deployed to any static hosting service.
+
+## License
+
+This project is open-source and available under the [MIT License](LICENSE).
