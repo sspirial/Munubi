@@ -30,7 +30,7 @@
       "technologies": ["React", "Node.js", "vercel"],
       "liveLink": "https://wall-of-developers.vercel.app/",
       "githubLink": "https://github.com/sspirial/wall-of-developers",
-      "image": "/src/assets/Screenshot 2025-05-26 103308.png"
+      "image": "/public/assets/Screenshot 2025-05-26 103308.png"
     }
   ],
   "education": [
