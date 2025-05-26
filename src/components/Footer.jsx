@@ -6,16 +6,16 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
   
   const socialLinks = [
-    { name: 'GitHub', url: 'https://github.com/yourusername', icon: '⚡' },
-    { name: 'LinkedIn', url: 'https://linkedin.com/in/yourusername', icon: '💼' },
-    { name: 'Twitter', url: 'https://twitter.com/yourusername', icon: '🐦' },
-    { name: 'Email', url: 'mailto:your.email@example.com', icon: '📧' },
+    { name: 'GitHub', url: 'https://github.com/sspirial', icon: '⚡' },
+    { name: 'LinkedIn', url: 'https://linkedin.com/in/emmanuel-munubi-6079a0367', icon: '💼' },
+    { name: 'X', url: 'https://x.com/munubiemmanuel', icon: '🐦' },
+    { name: 'Email', url: 'mailto:em.munubi@gmail.com', icon: '📧' },
   ];
 
   const quickLinks = [
-    { name: 'About', url: '/about' },
-    { name: 'Projects', url: '/projects' },
-    { name: 'Contact', url: '/contact' },
+    { name: 'About', url: '/about/' },
+    { name: 'Projects', url: '/projects/' },
+    { name: 'Contact', url: '/contact/' },
   ];
 
   return (

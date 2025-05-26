@@ -2,7 +2,7 @@
   "home": {
     "name": "Emmanuel Munubi",
     "tagline": "Start where you are. Use what you have. Do what you can. - Arthur Ashe",
-    "professionalPhoto": "/src/assets/professional-photo.jpg",
+    "professionalPhoto": "/public/assets/professional-photo.jpg",
     "ctaViewWork": "View My Work",
     "ctaDownloadResume": "Download Resume",
     "resumeUrl": "https://docs.google.com/document/d/1p5jk9rZ6iD9KxVrb6y58JCWbWQiiFegI9HU5sabkFDA/edit?usp=sharing"
