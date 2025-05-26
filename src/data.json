@@ -1,81 +1,72 @@
 {
   "home": {
     "name": "Emmanuel Munubi",
-    "tagline": "Your Professional Tagline",
+    "tagline": "Start where you are. Use what you have. Do what you can. - Arthur Ashe",
     "professionalPhoto": "/src/assets/professional-photo.jpg",
     "ctaViewWork": "View My Work",
     "ctaDownloadResume": "Download Resume",
-    "resumeUrl": "/path/to/your/resume.pdf"
+    "resumeUrl": "https://docs.google.com/document/d/1p5jk9rZ6iD9KxVrb6y58JCWbWQiiFegI9HU5sabkFDA/edit?usp=sharing"
   },
   "about": {
-    "bio": "A short bio introducing yourself.",
-    "background": "Your background (academic or personal).",
-    "aspirations": "Career aspirations."
+    "bio": "Hi, my name is Emmanuel Munubi. I am a budding software engineer passionate about solving real-world problems with scalable technology. My background includes hands-on experience building web applications, including a browser-based task management system for student interns. I specialize in JavaScript, front-end frameworks, and cloud fundamentals. I’m someone who combines technical know-how with thoughtful system design, aiming to become a systems architect. I bring focus, curiosity, and clarity to projects, which helps streamline collaboration and boost productivity. I'm currently seeking internship or entry-level roles where I can contribute to meaningful tech solutions and grow into a leadership position. I’d appreciate the opportunity to connect with professionals in system architecture or development teams. Thank you for your time and consideration.",
+    "background": "I'm  a Computer Science student in my final year at Pwani University",
+    "aspirations": "In the next five years, I aim to become a proficient Systems Architect."
   },
   "skills": {
     "technical": [
-      "Technical Skill 1",
-      "Technical Skill 2",
-      "React",
-      "JavaScript"
+      "react web development",
+      "PostgreSQL database management"
     ],
     "soft": [
-      "Soft Skill 1",
-      "Soft Skill 2"
+      "team collaboration",
+      "problem-solving",
+	  "effective communication"
     ]
   },
   "projects": [
     {
-      "name": "Project Alpha",
-      "description": "Description of Project Alpha. This project was about...",
-      "technologies": ["React", "Node.js", "MongoDB"],
-      "liveLink": "https://example.com/project-alpha",
-      "githubLink": "https://github.com/yourusername/project-alpha",
-      "image": "/path/to/project-alpha-image.jpg"
-    },
-    {
-      "name": "Project Beta",
-      "description": "Description of Project Beta. Focused on...",
-      "technologies": ["Python", "Django", "PostgreSQL"],
-      "liveLink": null,
-      "githubLink": "https://github.com/yourusername/project-beta",
-      "image": "/path/to/project-beta-image.jpg"
+      "name": "Pwani Innovation Week",
+      "description": "A website showcasing upcoming events and activities in Pwani Innovation Week.",
+      "technologies": ["React", "Node.js", "vercel"],
+      "liveLink": "https://wall-of-developers.vercel.app/",
+      "githubLink": "https://github.com/sspirial/wall-of-developers",
+      "image": "/src/assets/Screenshot 2025-05-26 103308.png"
     }
   ],
   "education": [
     {
-      "institution": "University of Example",
+      "institution": "Pwani University",
       "degree": "B.Sc. in Computer Science",
-      "duration": "2020 - 2024",
+      "duration": "2021 - present",
       "details": "Relevant coursework or achievements."
     },
     {
-      "institution": "Online Course Platform",
-      "degree": "Certification in Web Development",
-      "duration": "2023",
-      "details": "Covered HTML, CSS, JavaScript, and React."
+      "institution": "ALX Africa",
+      "degree": "Certification in Back-End Web Development",
+      "duration": "2025",
+      "details": "python, Django, PostgreSQL, and cloud fundamentals."
     }
   ],
   "contact": {
-    "email": "your.email@example.com",
-    "phone": "Your Phone Number (Optional)",
-    "location": "Your City, Country (Optional)",
+    "email": "em.munubi@gmail.com",
+    "phone": "+254726552638",
+    "location": "Mombasa, Kenya",
     "socialMedia": [
       {
         "name": "LinkedIn",
-        "url": "https://linkedin.com/in/yourusername"
+        "url": "https://www.linkedin.com/in/emmanuel-munubi-6079a0367"
       },
       {
         "name": "GitHub",
-        "url": "https://github.com/yourusername"
+        "url": "https://github.com/sspirial"
       },
       {
         "name": "Twitter",
-        "url": "https://twitter.com/yourusername"
+        "url": "https://x.com/MunubiEmmanuel"
       }
     ]
   },
   "footer": {
-    "copyright": "© 2025 Your Name. All rights reserved."
+    "copyright": "© 2025 Emmanuel Munubi. All rights reserved."
   }
 }
