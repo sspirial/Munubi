@@ -4,7 +4,7 @@ import data from '../data.json';
 
 const HomePage = () => {
   const [isVisible, setIsVisible] = useState(false);
-  const { name, tagline, professionalPhoto, ctaViewWork, ctaDownloadResume, resumeUrl } = data.home;
+  const { name, tagline, ctaViewWork, ctaDownloadResume, resumeUrl } = data.home;
 
   useEffect(() => {
     setIsVisible(true);
@@ -25,7 +25,7 @@ const HomePage = () => {
           <div className={`hero-content ${isVisible ? 'animate-fade-in-up' : ''}`}>
             <div className="hero-avatar">
               <img 
-                src={professionalPhoto} 
+                src="/assets/professional-photo.jpg"
                 alt={name}
                 className="avatar-image"
               />

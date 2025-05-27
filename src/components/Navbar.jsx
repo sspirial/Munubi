@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import './Navbar.css';
-import logo from '/public/assets/sspirial-logo.png';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -38,7 +37,7 @@ const Navbar = () => {
     <nav className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
       <div className="navbar-container">
         <Link to="/" className="navbar-logo-link">
-          <img src={logo} alt="Sspirial Logo" className="navbar-logo" />
+          <img src="/assets/sspirial-logo.png" alt="sspirial Logo" className="navbar-logo" />
           <span>Emmanuel Munubi</span>
         </Link>
         
