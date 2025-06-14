@@ -34,4 +34,16 @@ export const fetchUserProfile = async () => {
     console.error('Error fetching user profile:', error);
     return null;
   }
-};
+}
+
+// Utility to get top N projects by stars, forks, and recent update
+export function getTopProjects(repos, count = 3) {
+  return repos
+    .map(repo => ({
+      ...repo,
+      // Score: prioritize stars, then forks, then recent update
+      score: (repo.stargazers_count || 0) * 3 + (repo.forks_count || 0) * 2 + (new Date(repo.updated_at).getTime() / 1e12)
+    }))
+    .sort((a, b) => b.score - a.score)
+    .slice(0, count);
+}

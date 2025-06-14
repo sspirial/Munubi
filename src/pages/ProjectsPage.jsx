@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { fetchRepositories } from '../utils/githubApi';
+import { fetchRepositories, getTopProjects } from '../utils/githubApi';
 
 const ProjectsPage = () => {
   const [projects, setProjects] = useState([]);
@@ -7,7 +7,8 @@ const ProjectsPage = () => {
   useEffect(() => {
     const getProjects = async () => {
       const repos = await fetchRepositories();
-      setProjects(repos);
+      const topProjects = getTopProjects(repos, 3);
+      setProjects(topProjects);
     };
     getProjects();
   }, []);

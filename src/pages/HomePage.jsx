@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import data from '../data.json';
 
@@ -34,7 +34,7 @@ const HomePage = () => {
             
             <div className="hero-text">
               <h1 className="hero-title">
-                <span className="greeting">Hello, I'm</span>
+                <span className="greeting">Jambo, I'm</span>
                 <span className="name text-gradient">{name}</span>
               </h1>
               
@@ -59,7 +59,6 @@ const HomePage = () => {
                 
                 <a 
                   href={resumeUrl} 
-                  download 
                   className="btn btn-outline"
                 >
                   <span>{ctaDownloadResume}</span>
